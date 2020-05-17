@@ -1,20 +1,20 @@
-# Dracula for [X](http://link-to-x.com)
+# Dracula for [Lightline](https://github.com/itchyny/lightline.vim)
 
-> A dark theme for [X](http://link-to-x.com).
+> A dark theme for [Lightline](https://github.com/itchyny/lightline.vim).
 
 ![Screenshot](./screenshot.png)
 
 ## Install
 
-All instructions can be found at [draculatheme.com/x](https://draculatheme.com/x).
+All instructions can be found at [draculatheme.com/lightline](https://draculatheme.com/lightline).
 
 ## Team
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/template/graphs/contributors).
 
-[![Harrison Heck](https://avatars0.githubusercontent.com/u/1037526?v=3&s=70)](https://github.com/nesl247) | [![Zeno Rocha](https://avatars2.githubusercontent.com/u/398893?v=3&s=70)](https://github.com/zenorocha)
+[![Natur3-Boy](https://avatars3.githubusercontent.com/u/55642761?s=400&u=94b4c5f753bc62600899ff603efd97e0de291b66&v=4)](https://github.com/Natur3-Boy)
 --- | ---
-[Harrison Heck](https://github.com/nesl247) | [Zeno Rocha](https://github.com/zenorocha)
+[Natur3-Boy](https://github.com/Natur3-Boy)
 
 ## License
 
