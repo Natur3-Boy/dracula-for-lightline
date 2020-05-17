@@ -3,6 +3,8 @@
 > A dark theme for [Lightline](https://github.com/itchyny/lightline.vim).
 
 ![Screenshot](./screenshot.png)
+![Screenshot of Insert Mode](./screenshot-insert.png)
+![Screenshot of Visual Mode](./screenshot-visual.png)
 
 ## Install
 
