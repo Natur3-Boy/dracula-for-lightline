@@ -1,6 +1,6 @@
 " =============================================================================
 " Filename: lightline/autoload/lightline/colorscheme/dracula.vim
-" Author: Dan Hutson
+" Author: Natur3-Boy
 " License: MIT License
 " Last Change: 2020/16/05
 " =============================================================================
