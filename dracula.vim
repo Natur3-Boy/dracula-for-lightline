@@ -2,24 +2,29 @@
 " Filename: autoload/lightline/colorscheme/dracula.vim
 " Author: Natur3-Boy
 " License: MIT License
-" Last Change: 2020/16/05
+" Last Change: 2020/21/05
 " =============================================================================
 
 "" I used values pulled from draculatheme.com/contribute and the boiler plate
 "" from another colorscheme.
 
 "" These are whiteed with the palette I used
-let s:black 	= '#282a36'	"Background 
-let s:gray 	= '#44475a'	"Selection
-let s:white 	= '#f8f8f2' 	"Comment
-let s:pink 	= '#ff79c6' 
-let s:darkblue 	= '#6272a4' 	"Foreground
-let s:cyan 	= '#8be9fd' 
-let s:green 	= '#50fa7b' 
-let s:orange 	= '#ffb86c' 
-let s:purple 	= '#bd93f9' 
-let s:red 	= '#ff5555' 
-let s:yellow 	= '#f1fa8c' 
+let s:blacker 	= '#202030'	"made this one up for normal middle; integrate orange and cyan to get rid of this.
+let s:black 	= '#282a36'
+let s:gray 	= '#44475a'
+let s:darkblue 	= '#6272a4' 	
+let s:purple 	= '#bd93f9' 	"Visual Mode
+
+let s:white 	= '#f8f8f2' 
+let s:pink 	= '#ff79c6' 	"Replace Mode
+let s:green 	= '#50fa7b' 	"Insert Mode
+
+let s:orange 	= '#ffb86c' 	"Not used
+let s:cyan 	= '#8be9fd' 	"Not used
+
+let s:red 	= '#ff5555' 	"Error
+let s:yellow 	= '#f1fa8c' 	"Warning
+
 
 
 
@@ -33,7 +38,7 @@ if exists('g:lightline')
 	let s:p.insert.left = [ [ s:black, s:green ], [ s:white, s:gray ] ]
 	let s:p.replace.left = [ [ s:black, s:pink ], [ s:white, s:gray ] ]
 	let s:p.visual.left = [ [ s:black, s:purple], [ s:white, s:gray ] ]
-	let s:p.normal.middle = [ [ s:darkblue, s:black ] ]
+	let s:p.normal.middle = [ [ s:darkblue, s:blacker ] ]
 	let s:p.inactive.middle = [ [ s:gray, s:black ] ]
 	let s:p.tabline.left = [ [ s:white, s:gray ] ]
 	let s:p.tabline.tabsel = [ [ s:white, s:black ] ]
